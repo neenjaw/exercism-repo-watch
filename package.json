@@ -1,0 +1,22 @@
+{
+  "name": "github-rest-api-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tim Austin",
+  "license": "AGPL3",
+  "dependencies": {
+    "@octokit/rest": "^18.0.6",
+    "clui": "^0.3.6",
+    "inquirer": "^7.3.3",
+    "yargs": "^16.1.0"
+  }
+}
