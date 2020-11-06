@@ -15,7 +15,7 @@
   },
   "keywords": [],
   "author": "Tim Austin",
-  "license": "AGPL3",
+  "license": "AGPL-3.0-only",
   "dependencies": {
     "@octokit/rest": "^18.0.6",
     "clui": "^0.3.6",
