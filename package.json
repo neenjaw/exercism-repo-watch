@@ -1,11 +1,11 @@
 {
-  "name": "github-rest-api-test",
+  "name": "neenjaw-exercism-repo-watch",
   "version": "1.0.0",
-  "description": "",
+  "description": "A command-line tool to manage exercism repository notifications",
   "main": "cli.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/neenjaw/exercism-repo-watch.git"
   },
   "engines": {
     "node": ">=14.0.0"
@@ -22,5 +22,8 @@
     "inquirer": "^7.3.3",
     "keytar": "^7.0.0",
     "yargs": "^16.1.0"
+  },
+  "bin": {
+    "exercism-repo-watch": "cli.js"
   }
 }
